@@ -52,7 +52,6 @@ public class JStopWatch extends JFrame implements ActionListener {
 			lbl.setText("elapsed time is: " + (double) (ae.getWhen() - start) / 1000);
 		}
 		
-		
 	}
 	
 	public static void main(String[] args){
